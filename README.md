@@ -13,7 +13,7 @@
 
 ## problem description
 
-In the process JSP, we give one example to explain MDP. Assume we have jobs J={J_1,J_2,J_3,⋯,J_J} need to be processed using M={m_1,m_2,m_3,⋯,m_M} machines, each job consists of M different sub-tasks and only can be processed by a different machine. To simplify the problem, there are some constraints: 
+In the process JSP, we give one example to explain MDP (Markov decision problem). Assume we have jobs J={J_1,J_2,J_3,⋯,J_J} need to be processed using M={m_1,m_2,m_3,⋯,m_M} machines, each job consists of M different sub-tasks and only can be processed by a different machine. To simplify the problem, there are some constraints: 
 Constrain 1: Each sub-task only needs to be processed once at m machine. 
 Constrain 2: Each sub-task has the time limitations T_j={T_j1,T_j2,⋯,T_jM}, especially, the lowest time we defined is ten minutes, the highest time is fifty minutes. 
 Constrain 3: Each job has special orders O_j={J_j1,J_j2,⋯,J_jM} for M sub-tasks. 
